@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Welcome Page</title>
+    <link rel="icon" href="guc logo.jpg" type="image/x-icon/">
     <style>
        body{
    margin: 0;
@@ -129,6 +130,16 @@ gap: 19.5px;
         gap: 19.5px;
     }
 
+   .copyrights{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      margin: 10px; 
+      font-family:Bahnschrift;
+      letter-spacing:0.3px;
+      font-weight:100;
+   }
+
 
 
 
@@ -144,7 +155,7 @@ gap: 19.5px;
 
 
         <div class="column">
-            <img src="GUC logo nobg.png" alt="Description of the image"/>
+            <img src="GUC logo nobg.png" alt="GUC Campus Backdrop"/>
             <h1>Welcome to The GUC Advising System</h1>
             <h2>Log in As:</h2>
             <div class="row">
@@ -156,5 +167,7 @@ gap: 19.5px;
         </div>
 
     </form>
+
+      <div class="copyrights">© All Copyrights Reserved to Team Sighs (2023)</div>
 </body>
 </html>

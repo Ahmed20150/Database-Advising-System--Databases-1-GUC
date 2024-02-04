@@ -4,7 +4,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+   <title>Advisor Home Page</title>
+<link rel="icon" href="guc logo.jpg" type="image/x-icon/">
     <style>
     .main1{
    
@@ -18,7 +19,7 @@ body {
     color: #ffffff;
      margin: 0;
  padding: 0;
- height: 1050px;
+ height: 900px;
  background-image: url('guc bg.jpg'); 
  background-size: cover;
  background-position: center;
@@ -206,6 +207,16 @@ u1, li {
   text-indent: initial;
   padding: 0 1.5rem 0 45px
 }
+
+   .copyrights{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      margin: 10px; 
+      font-family:Bahnschrift;
+      letter-spacing:0.3px;
+      font-weight:100;
+   }
     </style>
 
 </head>
@@ -301,5 +312,7 @@ Sign Out</a>
  
         
     </form>
+
+      <div class="copyrights">© All Copyrights Reserved to Team Sighs (2023)</div>
 </body>
 </html>

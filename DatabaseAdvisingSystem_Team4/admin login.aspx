@@ -4,7 +4,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+       <title>Admin Login</title>
+    <link rel="icon" href="guc logo.jpg" type="image/x-icon/">
     <style>
    
    body{

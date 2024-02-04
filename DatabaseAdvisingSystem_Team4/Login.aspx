@@ -4,11 +4,42 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<title>Login Page</title>
+<title>Student Login</title>
+<link rel="icon" href="guc logo.jpg" type="image/x-icon/">
 <link rel="Stylesheet" href="Student Component 1\StyleSheet.css"/>
 
+    <style>
+
+        
+         body{
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        background-image: url('guc bg2.jpg'); 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-blend-mode:color-burn;
+        background-color: rgb(255 255 255 / 0.3);
+        backdrop-filter: blur(10px);
+        font-family:Bahnschrift;
+        letter-spacing:0.3px;
+        font-weight:100;
+  }
+    .copyrights{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      margin: 10px; 
+      font-family:Bahnschrift;
+      letter-spacing:0.3px;
+      font-weight:100;
+   }
+
+    </style>
+
 </head>
-<body style="background-image:url(campus.png); color: white; height: 58px; font-family: Bahnschrift">
+<body>
 <form id="form1" runat="server" style=" display: flex;
   justify-content: center;
   align-items: center;
@@ -75,15 +106,19 @@ style="  position: relative;width: 100%;background: #333;border: none;outline: n
 </div> 
 </div> 
 </div> 
-        <a href="Register.aspx"> Sign Up</a>
-        <a href="Main_Page.aspx"> Back to Main</a>
+
 <asp:Button ID="login" runat="server" Text="Sign In"  style="position: relative;background: #333;border: none;outline: none;padding: 25px 10px 7.5px;border-radius:4px;padding: 10px;width:70%;margin:5px;background: #178ab6;color:#000;font-weight: 600;font-size: 1.35em;letter-spacing: 0.05em;cursor: pointer;
 " onclick="signup"/>
+        <a href="Register.aspx"> Sign Up</a>
+        <a href="Main_Page.aspx"> Back to Main</a>
+
 </div>
 
       
   </section>
 </form>
+
+      <div class="copyrights">© All Copyrights Reserved to Team Sighs (2023)</div>
 </body>
 </html>
 

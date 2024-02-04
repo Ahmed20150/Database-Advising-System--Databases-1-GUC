@@ -4,7 +4,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Grad Plan Edits</title>
+<link rel="icon" href="guc logo.jpg" type="image/x-icon/">
     <style>
 
         body{
@@ -228,6 +229,16 @@
   text-indent: initial;
   padding: 0 1.5rem 0 45px
 }
+
+   .copyrights{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      margin: 10px; 
+      font-family:Bahnschrift;
+      letter-spacing:0.3px;
+      font-weight:100;
+   }
 </style> 
 <script>
 
@@ -354,5 +365,8 @@
 
         </center>
     </form>
+
+    
+ <div class="copyrights">© All Copyrights Reserved to Team Sighs (2023)</div>
 </body>
 </html>

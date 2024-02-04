@@ -22,10 +22,9 @@
             font-family:Bahnschrift;
             letter-spacing:0.3px;
             font-weight:100;
-
-
-
         }
+
+
            @keyframes fadeIn {
             0% {
                 opacity: 0;
