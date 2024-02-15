@@ -139,6 +139,42 @@ gap: 19.5px;
       letter-spacing:0.3px;
       font-weight:100;
    }
+   .animation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container,
+.text-container1,
+.text-container2{
+    opacity: 0;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@keyframes text-focus-in {
+    0% {
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+.image-container {
+    animation-delay: 0.2s; 
+}
+
+.text-container1 {
+    animation-delay: 0.4s; 
+}
+
+.text-container2 {
+    animation-delay: 0.6s; 
+}
+
 
 
 
@@ -155,9 +191,18 @@ gap: 19.5px;
 
 
         <div class="column">
-            <img src="GUC logo nobg.png" alt="GUC Campus Backdrop"/>
-            <h1>Welcome to The GUC Advising System</h1>
-            <h2>Log in As:</h2>
+           <div class="animation-container">
+    <div class="image-container">
+        <img src="GUC logo nobg.png" alt="GUC Campus Backdrop"/>
+    </div>
+    <div class="text-container1">
+        <h1 class="text-focus-in">Welcome to The GUC Advising System</h1>
+    </div>
+
+    <div class="text-container2">
+       <h2 class="text-focus-in">Log in As:</h2>  
+   </div>
+</div>
             <div class="row">
 
                 <asp:Button  runat="server" CssClass="button" Text="Admin" OnClick="Admin_Redirect" />

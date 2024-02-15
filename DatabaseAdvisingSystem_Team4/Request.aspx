@@ -6,6 +6,39 @@
 <head runat="server">
     <title>Request</title>
     <link rel="Stylesheet" href="StyleSheet.css"/>
+
+    <style>
+
+           body{
+   margin: 0;
+   padding: 0;
+   height: 100vh;
+   background-image: url('guc bg2.jpg'); 
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-blend-mode:color-burn;
+   background-color: rgb(255 255 255 / 0.3);
+   backdrop-filter: blur(10px);
+   font-family:Bahnschrift;
+   letter-spacing:0.3px;
+   font-weight:100;
+           display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 19.5px;
+
+}
+
+           .buttonContainer{
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+           }
+
+
+    </style>
 </head>
 
     <script>
@@ -37,7 +70,7 @@
 
 
 
-<body style="background-color:#11261b; color:white;  height: 58px; font-family:Bahnschrift">
+<%--<body style="background-color:#11261b; color:white;  height: 58px; font-family:Bahnschrift">--%>
 <form id="form1" runat="server">
 <div style="direction: ltr; height: 159px">
 <div style="font-display:block; font-size:36px; margin-bottom:20px">Sending Request</div>
@@ -104,10 +137,13 @@ flex-direction: row;">
 
 
 <br/>
-    <asp:Button ID="send" runat="server" Text="Send Request" class="signup" OnClick="Button1_Click"/>
-    <br/>
-    <asp:Button ID="back" runat="server" Text="Back" class="signup" OnClick="redirectBack"/>
+
+    <div class="buttonContainer">
+
     
+    <asp:Button ID="send" runat="server" Text="Send Request" class="signup" OnClick="Button1_Click"/>
+    <asp:Button ID="back" runat="server" Text="Back" class="signup" OnClick="redirectBack"/>
+    </div>
 
 
 

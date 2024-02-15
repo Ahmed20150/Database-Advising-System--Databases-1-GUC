@@ -68,7 +68,7 @@
     
     <form id="form1" runat="server">
         <center>
-             <asp:Label ID="Label1" runat="server" Text="Register here" CssClass="label"></asp:Label>
+            <h1>Register Here</h1>
         <div class="mainLayout">
          <div  style="width: 150px;">
             <asp:Label ID="Label3" runat="server" Text="Name:"></asp:Label>

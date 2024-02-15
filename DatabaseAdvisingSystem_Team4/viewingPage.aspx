@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Viewing Page</title>
+    <title>Viewing Page 2</title>
     <link rel="icon" href="guc logo.jpg" type="image/x-icon"/>
          <style>
 
@@ -145,7 +145,7 @@
           justify-content: space-between;
           align-items: center;
           flex-direction: column; ">
-            <h1 style="font-weight:bold">Viewing Page</h1>
+            <h1 style="font-weight:bold">Viewing Page 2</h1>
 
           <div style=" display:flex;
           gap:50px;

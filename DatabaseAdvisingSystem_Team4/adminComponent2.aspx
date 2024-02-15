@@ -282,7 +282,7 @@
             <div class="column">
 
 
-            <div class="button" style="margin-bottom:125px"><asp:Button ID="Button4" CssClass="button" runat="server" Text="Viewing Page" onClick="ViewpageRedirect"/> </div>
+            <div class="button" style="margin-bottom:125px"><asp:Button ID="Button4" CssClass="button" runat="server" Text="Viewing Page 2" onClick="ViewpageRedirect"/> </div>
 
             <br />
 

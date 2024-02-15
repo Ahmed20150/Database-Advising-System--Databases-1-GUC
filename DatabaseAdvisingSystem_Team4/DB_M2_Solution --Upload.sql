@@ -724,6 +724,7 @@ exec Procedures_AdminDeleteSlots 'W22'
 select * from Course_Semester cs inner join Slot s on cs.course_id=s.course_id 
 
 select * from Slot
+select * from Student
 
 
 
